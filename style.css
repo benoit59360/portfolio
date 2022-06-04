@@ -1,0 +1,64 @@
+
+
+@font-face {
+
+	font-family: 'Flama';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Flama'), url('assets/font/Flama Bold Italic.woff') format('woff');
+}
+
+* {
+
+	margin: 0;
+	top: 0;
+	box-sizing: border-box;
+}
+
+html {
+
+	font: normal 1em "Flama";
+}
+
+header {
+
+	position: fixed;
+	width: 100%;
+}
+
+/*header img {
+
+	max-height: 100vh;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}*/
+
+header .rect {
+
+	height: 100px;
+	width: 50%;
+	background: linear-gradient(to right, #6675eb, #b625f8);
+}
+
+.hero {
+
+	min-height: 100vh;
+	background-color: white;
+}
+
+.hero img {
+
+	max-height: 100vh;
+	float: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.about-me {
+
+	min-height: 100vh;
+	background-color: red;
+}
